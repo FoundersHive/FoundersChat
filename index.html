@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>FoundersChat — Coming Soon</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #080810;
+    color: #f0f0ff;
+    font-family: 'DM Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    text-align: center;
+    padding: 24px;
+  }
+  .emoji { font-size: 52px; animation: float 3s ease-in-out infinite; }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  .logo {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(36px, 10vw, 60px);
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+  .logo span { color: #6c63ff; }
+  .sub {
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 300;
+    color: #7070a0;
+    letter-spacing: 2px;
+  }
+</style>
+</head>
+<body>
+  <div class="emoji">😎</div>
+  <div class="logo">Founders<span>Chat</span></div>
+  <p class="sub">Coming Soon Broski 😎</p>
+</body>
+</html>

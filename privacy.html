@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — FoundersChat</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    header {
+      background: #3B7DD8;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header a {
+      text-decoration: none;
+      color: rgba(255,255,255,0.8);
+      font-size: 14px;
+    }
+    header a:hover { color: #fff; }
+    header span { color: rgba(255,255,255,0.4); }
+
+    .hero {
+      background: linear-gradient(135deg, #3B7DD8 0%, #1a4fa0 100%);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    .hero h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .hero p  { font-size: 14px; opacity: 0.8; }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    section { margin-bottom: 40px; }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #3B7DD8;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8f0fb;
+    }
+
+    p { margin-bottom: 12px; color: #333; }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+      color: #333;
+    }
+    ul li { margin-bottom: 6px; }
+
+    .highlight {
+      background: #e8f0fb;
+      border-left: 4px solid #3B7DD8;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin-bottom: 16px;
+    }
+    .highlight p { margin-bottom: 0; color: #1a3a6b; font-weight: 500; }
+
+    a { color: #3B7DD8; }
+
+    footer {
+      background: #1a1a2e;
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+      font-size: 13px;
+      padding: 24px;
+    }
+    footer a { color: rgba(255,255,255,0.7); }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/">FoundersChat</a>
+  <span>/</span>
+  <a href="/privacy">Privacy Policy</a>
+</header>
+
+<div class="hero">
+  <h1>Privacy Policy</h1>
+  <p>Effective date: 19 May 2026 &nbsp;·&nbsp; Gnanz TechLabs</p>
+</div>
+
+<div class="container">
+
+  <section>
+    <div class="highlight">
+      <p>We built FoundersChat to connect startup founders — not to monetise your data. We collect only what the app needs to work and never sell your information to anyone.</p>
+    </div>
+    <p>This Privacy Policy explains what information Gnanz TechLabs ("we", "our", "us") collects when you use the FoundersChat mobile application, how we use it, and your rights over it. By using the app you agree to this policy.</p>
+  </section>
+
+  <section>
+    <h2>1. Information We Collect</h2>
+
+    <p><strong>Account information (provided by you)</strong></p>
+    <ul>
+      <li>Full name and role (e.g. Technical Co-Founder, Designer)</li>
+      <li>Startup domain, stage, bio, and location</li>
+      <li>Skills and "looking for" preferences</li>
+      <li>Profile photo (uploaded to Firebase Storage)</li>
+      <li>Email address — stored only in Firebase Authentication, never in your public profile</li>
+    </ul>
+
+    <p><strong>Content you create</strong></p>
+    <ul>
+      <li>Direct messages sent to other users</li>
+      <li>Group chat messages</li>
+      <li>Startup ideas, comments, and event RSVPs</li>
+      <li>Connection requests and connections</li>
+    </ul>
+
+    <p><strong>Device &amp; usage data</strong></p>
+    <ul>
+      <li>Firebase Cloud Messaging (FCM) push notification token — stored in a private, owner-only sub-collection; no other user can read it</li>
+      <li>Crash reports and performance data collected automatically by Firebase Crashlytics and Firebase Performance</li>
+    </ul>
+
+    <p><strong>What we do NOT collect</strong></p>
+    <ul>
+      <li>Phone number — the app never asks for or stores your phone number</li>
+      <li>Payment or financial information</li>
+      <li>Location beyond what you voluntarily type in your profile</li>
+      <li>Contacts or address book</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>To create and maintain your account</li>
+      <li>To show your profile to other users for networking</li>
+      <li>To deliver push notifications (new messages, connection requests)</li>
+      <li>To match you with relevant co-founders using our in-app matching algorithm</li>
+      <li>To improve app performance and fix bugs</li>
+      <li>To comply with legal obligations</li>
+    </ul>
+    <p>We do not use your data for advertising, profiling, or automated decision-making that has legal or significant effects on you.</p>
+  </section>
+
+  <section>
+    <h2>3. How We Share Your Information</h2>
+    <p>We do not sell or rent your personal data. We share it only in the following limited circumstances:</p>
+    <ul>
+      <li><strong>Other FoundersChat users</strong> — your public profile (name, role, domain, stage, bio, location, skills, photo) is visible to all authenticated users of the app. Your email address is never shared.</li>
+      <li><strong>Google Firebase</strong> — we use Firebase Authentication, Firestore, Firebase Storage, Firebase Cloud Messaging, and Firebase Crashlytics. Google processes data on our behalf under their <a href="https://firebase.google.com/terms/data-processing-terms" target="_blank" rel="noopener">Data Processing Terms</a>.</li>
+      <li><strong>Law enforcement</strong> — we may disclose data if required by applicable law or valid legal process.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Data Storage &amp; Security</h2>
+    <p>Your data is stored on Google Cloud infrastructure (Firebase) with servers located primarily in the United States. Google Firebase implements industry-standard security measures including encryption at rest and in transit.</p>
+    <p>We apply Firestore security rules that restrict read/write access — for example, your FCM token and private data are only accessible by you, and your messages are only accessible by the participants in each conversation.</p>
+  </section>
+
+  <section>
+    <h2>5. Data Retention</h2>
+    <p>We retain your data for as long as your account is active. When you delete your account through the app ("Delete Account" in the menu), we permanently delete:</p>
+    <ul>
+      <li>Your user profile and all profile data</li>
+      <li>Your direct messages</li>
+      <li>Your group chat messages</li>
+      <li>Your startup ideas, comments, and connection records</li>
+      <li>Your FCM notification token</li>
+      <li>Your profile photo from Firebase Storage</li>
+    </ul>
+    <p>Some residual data (e.g. crash logs) may be retained for up to 90 days in Firebase Crashlytics.</p>
+  </section>
+
+  <section>
+    <h2>6. Your Rights</h2>
+    <p>Depending on your location, you may have the following rights:</p>
+    <ul>
+      <li><strong>Access</strong> — request a copy of the personal data we hold about you</li>
+      <li><strong>Correction</strong> — update your profile information at any time inside the app</li>
+      <li><strong>Deletion</strong> — delete your account and all associated data via "Delete Account" in the app menu, or by contacting us</li>
+      <li><strong>Portability</strong> — request your data in a machine-readable format</li>
+      <li><strong>Objection</strong> — object to certain processing activities</li>
+    </ul>
+    <p>To exercise any of these rights, email us at <a href="mailto:founderschat.admin@gmail.com">founderschat.admin@gmail.com</a>. We will respond within 30 days.</p>
+  </section>
+
+  <section>
+    <h2>7. Children's Privacy</h2>
+    <p>FoundersChat is intended for users aged 18 and above. We do not knowingly collect personal data from anyone under 18. If you believe a minor has created an account, please contact us immediately and we will delete the account.</p>
+  </section>
+
+  <section>
+    <h2>8. Third-Party Links</h2>
+    <p>The app may display links to external websites or events. We are not responsible for the privacy practices of those sites. Please review their privacy policies before providing any personal information.</p>
+  </section>
+
+  <section>
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will update the effective date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy. For significant changes, we will notify you via an in-app notification.</p>
+  </section>
+
+  <section>
+    <h2>10. Contact Us</h2>
+    <p>If you have questions or concerns about this Privacy Policy or your data, please contact:</p>
+    <ul>
+      <li><strong>Company:</strong> Gnanz TechLabs</li>
+      <li><strong>App:</strong> FoundersChat</li>
+      <li><strong>Email:</strong> <a href="mailto:founderschat.admin@gmail.com">founderschat.admin@gmail.com</a></li>
+      <li><strong>Website:</strong> <a href="https://founderschat.in">founderschat.in</a></li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Gnanz TechLabs. All rights reserved. &nbsp;·&nbsp; <a href="/terms">Terms of Service</a> &nbsp;·&nbsp; <a href="/privacy">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
